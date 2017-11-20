@@ -1,0 +1,227 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 3, 2016, 5:46:17 PM
+    Author     : Marko
+*/
+
+.container{
+    width: 1060px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 75px 0;
+}
+
+header .container h1{
+    float: left;
+}
+
+.container nav ul{
+       float: right;
+       padding-top: 5px;
+}
+   
+.container nav ul li{
+       float: left;
+       margin-right: 120px;
+}
+   
+.container nav ul li:nth-of-type(4){
+       margin-right: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+nav ul li a:hover{
+    color: #000;
+}
+
+.photodiary,
+.lifetyle{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 95px;
+}
+
+.photodiary h2,
+.lifetyle h2{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight:  400;
+    color: #626262;
+    padding-bottom: 40px;
+}
+
+.photodiary h3,
+.lifetyle h3{
+    color: #b4ad9e;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    padding: 30px 0;
+}
+
+.photodiary p,
+.lifetyle p{
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #626262;
+}
+
+.photodiary article{
+    padding-top: 135px;
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+.photodiary article:nth-of-type(2n){
+    margin: 0;
+}
+
+.photodiary article img{
+    width: 100%;
+}
+
+.photodiary article a{
+    text-decoration: none;
+    color: #626262;
+}
+
+.photodiary article a:hover{
+    color: #000;
+}
+
+.newsletter{
+    background: #f0f0f0;
+    margin-top: 125px;
+    padding: 75px 0;
+    text-align: center;
+}
+
+.newsletter h2{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight:  400;
+    color: #333333;
+    padding-bottom: 80px;
+}
+
+.newsletter form input{
+    border: none;
+    border-bottom: 1px solid #333333;
+    background: #f0f0f0;
+    width: 380px;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 14px;
+    padding-left: 5px;
+}
+
+.newsletter form button{
+    border: none;
+    margin-left: -45px;
+}
+
+.lifetyle article{
+    padding-top: 135px;
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+
+.lifetyle article:nth-of-type(2n){
+    margin: 0;
+}
+
+.lifetyle article img{
+    width: 100%;
+}
+
+.lifetyle article a{
+    text-decoration: none;
+    color: #626262;
+}
+
+.lifetyle article a:hover{
+    color: #000;
+}
+
+.winter .container .load{
+    margin: 170px auto;
+    width: 160px;
+    height: 60px;
+    border: 1px solid #626262;
+    text-align: center;
+}
+
+.winter .container .load a{
+    display: block;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #626262;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.winter .container .load a:hover{
+    background: #626262;
+    color: #ffffff;
+}
+
+footer{
+    background: #f0f0f0;
+}
+
+footer .container{
+    padding: 45px 0;
+}
+
+footer .container .privacy{
+    float: left;
+}
+
+footer .container .privacy li{
+    float: left;
+    margin-right: 17px;
+}
+
+footer .container .follow{
+    float: right;
+}
+
+footer .container .follow li{
+    float: left;
+    margin-left: 17px;
+}
+
+footer .container li{
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+}
+
+footer .container li a{
+    text-decoration: none;
+    color: #626262;
+}
+
+footer .container li a:hover{
+    color: #fff;
+}
+   
